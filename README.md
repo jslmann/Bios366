@@ -1,11 +1,19 @@
-# Bios366
+# Bios8366
 
-### NOTE: Due to a change in Vanderbilt University's course numbering system, BIOS 366 will become BIOS 8366 beginning in Fall 2015. In the coming weeks I will change the name of the repository to this new designation.
+[![Join the chat at https://gitter.im/fonnesbeck/Bios8366](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/fonnesbeck/Bios8366?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge) [![Binder](http://mybinder.org/badge.svg)](http://mybinder.org/repo/fonnesbeck/bios8366)
+
+### Formerly Bios366
 
 Advanced Statistical Computing at Vanderbilt University's Department of Biostatistics
 
 Course covers numerical optimization, Markov Chain Monte Carlo (MCMC), Metropolis-Hastings, Gibbs sampling, estimation-maximization (EM) algorithms, data augmentation algorithms with applications for model fitting and techniques for dealing with missing data.
 
-Prerequisites: Bios 301 or permission of instructor. Students must be familiar with the [Git](http://git-scm.com) version control system.
+Prerequisites: Permission of instructor. Students must be familiar with basic probability, have some formal programming experience, and be comfortable using the [Git](http://git-scm.com) version control system.
+
+To install the Python packages for the course, clone the repository and run:
+
+`pip install -r requirements.txt`
+
+from inside the cloned directory.
 
 All content is licensed under [CC-BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/) unless otherwise stated.
